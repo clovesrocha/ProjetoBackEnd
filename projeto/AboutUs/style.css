@@ -1,0 +1,152 @@
+body {
+    background-color: #F5F5F5;
+    color: #fff;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: hidden;
+}
+
+/* Header */
+
+header {
+    background-color: #004AAD;
+
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-btn {
+    background-color: #004AAD;
+    color: #fff;
+
+    width: 12%;
+    padding: 10px;
+
+    border: none;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #05418e;
+}
+
+.under-header {
+    background-color: #003173;
+
+    padding: 5px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 70vh;
+}
+
+.about-us {
+    background-color: #003173;
+
+    width: 20%;
+    padding: 50px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: justify;
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.devs {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.devs h2 {
+    font-size: 2.5rem;
+
+    color: #004AAD;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: 25px 75px;
+}
+
+.dev-card {
+    background-color: #fff;
+    color: #003173;
+
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Footer */
+
+footer {
+    background-color: #003173;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-footer {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 1.5rem;
+}
+
+.nav-footer>h3 {
+    cursor: pointer;
+}

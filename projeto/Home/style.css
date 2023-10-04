@@ -1,0 +1,152 @@
+body {
+    background-image: url("../assets/images/background.png");
+    color: #fff;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: hidden;
+}
+
+/* Header */
+
+header {
+    background-color: #004AAD;
+
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-btn {
+    background-color: #004AAD;
+    color: #fff;
+
+    width: 12%;
+    padding: 10px;
+
+    border: none;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #05418e;
+}
+
+.under-header {
+    background-color: #003173;
+
+    padding: 5px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -50px;
+
+    height: 80vh;
+}
+
+.weather-data {
+    background-color: #004AAD;
+
+    width: 30%;
+    height: 65%;
+
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.city {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.city h3 {
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+.city p {
+    margin: 0px;
+    font-size: .8rem;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+
+
+    font-size: 3rem;
+
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.temp>h2 {
+    margin: 0px;
+}
+
+.temp>img {
+    scale: 80%;
+}
+
+.desc {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+/* Footer */
+
+footer {
+    background-color: #003173;
+
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-footer {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 1.5rem;
+}
+
+.nav-footer>h3 {
+    cursor: pointer;
+}
